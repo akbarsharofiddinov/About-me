@@ -98,12 +98,24 @@ p {
     border-radius: 20px;
 }
 
+.submit:hover {
+    background-color: #fff;
+    color: royalblue;
+    cursor: pointer;
+}
+
 .reset {
     background-color: royalblue;
     color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+.reset:hover {
+    background-color: #fff;
+    color: royalblue;
+    cursor: pointer;
 }
 
 body {

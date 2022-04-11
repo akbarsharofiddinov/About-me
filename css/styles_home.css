@@ -113,6 +113,7 @@ p {
 
 .btn:hover {
     background-color: #fff;
+    cursor: pointer;
 }
 
 .center-section {
@@ -172,6 +173,11 @@ p {
     background-color: #333;
     font-size: 18px;
     border: none;
+}
+
+.btn-contact:hover {
+    background-color: #fff;
+    cursor: pointer;
 }
 
 .btn-contact a {
