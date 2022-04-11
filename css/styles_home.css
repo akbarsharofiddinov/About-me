@@ -106,7 +106,7 @@ p {
     margin: 0 483px 10px;
 }
 
-.btn a {
+a .btn {
     color: #f7c08a;
     font-size: 18px;
 }
@@ -180,7 +180,7 @@ p {
     cursor: pointer;
 }
 
-.btn-contact a {
+a .btn-contact {
     color: #f7c08a;
 }
 
