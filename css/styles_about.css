@@ -80,7 +80,7 @@ p {
 
 .showcase {
     padding-top: 70px;
-    background-image: url(/pictures/pexels-fwstudio-132200.jpg);
+    background-image: url(../pictures/pexels-fwstudio-132200.jpg);
     height: 100vh;
     background-size: cover;
     font-size: 20px;
@@ -104,7 +104,7 @@ p {
 }
 
 .showcase-2 {
-    background-image: url(/pictures/pexels-pixabay-269063.jpg);
+    background-image: url(../pictures/pexels-pixabay-269063.jpg);
     height: 100vh;
 }
 

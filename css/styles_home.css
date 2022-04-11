@@ -83,7 +83,7 @@ p {
 
 .showcase {
     padding-top: 60px;
-    background-image: url(/pictures/pexels-pixabay-276514.jpg);
+    background-image: url(../pictures/pexels-pixabay-276514.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -125,7 +125,7 @@ p {
 .center-section .part-1 {
     width: 50%;
     float: left;
-    background-image: url(/pictures/pexels-keyboard.jpg);
+    background-image: url(../pictures/pexels-keyboard.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -136,7 +136,7 @@ p {
     height: 100vh;
     background-size: cover;
     float: right;
-    background-image: url(/pictures/pexels-stairs.jpg)
+    background-image: url(../pictures/pexels-stairs.jpg);
 }
 
 .part-1 p {
