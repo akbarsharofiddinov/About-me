@@ -1,0 +1,289 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    color: #123468;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    color: #123468;
+}
+
+a {
+    color: #123468;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+
+.header {
+     padding: 15px 0;
+}
+
+.header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+}
+
+.header-item > a {
+    padding: 25px 30px;
+    cursor: pointer;
+    color: #123468;
+
+    transition: all .4s;
+}
+
+.header-item > a:hover {
+    color: #fff;
+    background-color: #123468;
+}
+
+.header-btn  {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #123468;
+    color: #fff;
+    border: 2px solid #123468;
+    border-radius: 40px;
+    margin-left: 30px;
+
+    transition: all .4s;
+}
+
+.header-btn:hover {
+    background-color: #fff;
+    color: #123468;
+}
+
+/* Drop items */
+
+.header-item {
+    position: relative;
+}
+
+.drop-items {
+    position: absolute;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    width: 120%;
+    top: 40px;
+
+    transform: translateY(-40px);
+    
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: all .4s;
+}
+
+.header-item:hover .drop-items {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+
+    transform: translateY(0);
+
+    transition: all .4s;
+}
+
+.drop-item {
+    padding: 10px 20px;
+    cursor: pointer;
+
+    transition: all .4s;
+}
+
+.drop-item:hover {
+    background-color: #123468;
+    color: #fff;
+}
+
+.drop-item:hover > a {
+    color: #fff;
+}
+
+/* Deep Drop Down */
+
+.drop-item {
+    position: relative;
+}
+
+.deep-items {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    position: absolute;
+    right: -100px;
+    padding: 10px;
+    z-index: 99;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: all;
+
+    transform: translateX(-40px);
+
+    transition: all .4s;
+}
+
+.drop-item:hover .deep-items {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+
+    transform: translateX(0);
+
+    transition: all .4s;
+}
+
+.deep-item {
+    padding: 10px 20px;
+}
+
+/* about top Section */
+
+.about-top .content {
+    width: 50%;
+    margin: 80px auto;
+}
+
+.about-top p {
+    padding: 20px 0;
+}
+
+.learn-more {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #123468;
+    color: #fff;
+    border-radius: 40px;
+    border: 2px solid #123468;
+    right: 50%;
+    transform: translateX(50%);
+
+    transition: all .4s
+}
+
+.learn-more:hover {
+    background-color: #fff;
+    color: #123468;
+}
+
+/* Contact */
+
+.contact {
+    margin: 40px 0;
+}
+
+.img {
+    background-image: url("../images/inner/image\ 1_auto_custom.jpg");
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Contact Form */
+
+.form input {
+    width: 50%;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    padding: 0 10px ;
+}
+
+.form textarea {
+    width: 50%;
+    height: 40px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    border-radius: 40px;
+    padding: 12px 10px;
+}
+
+.form textarea {
+    transform: translateX(-10px);
+}
+
+.form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.form label {
+    font-size: 20px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: #123468;
+    color: #fff;
+    border: 2px solid #123468;
+    border-radius: 40px;
+    margin-left: 500px;
+}
+
+.form 
+
+.buttons {
+    margin-top: 40px;
+    transform: translateX(70px);
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #123468;
+    padding: 20px;
+}
+
+.footer,
+.footer a {
+    color: #fff;
+}
+
+.info {
+    width: 50%;
+}
+
+.footer .container {
+    display: flex;
+    gap: 300px;
+    align-items: center;
+}
+
+.footer .icons {
+    display: grid;
+    gap: 20px;
+}
